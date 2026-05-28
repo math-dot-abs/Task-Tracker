@@ -1,8 +1,0 @@
-ktor:
-  deployment:
-    port: 8080
-  application:
-    modules:
-      - bootstrap.SerializationKt.configureSerialization
-      - bootstrap.MongoKt.configureMongo
-      - routes.TaskRoutesKt.configureRouting
